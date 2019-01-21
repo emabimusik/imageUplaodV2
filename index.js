@@ -15,7 +15,7 @@
     function handleImage(e){
         var reader = new FileReader();
         reader.onload = function(event){
-
+            var dataUrl;
             var img = new Image();
             img.onload = function(){
 
@@ -33,26 +33,30 @@
                 ctx.translate(img.width, 0);
                 ctx.scale(-1, 1);
                 ctx.drawImage(img,0,-img.height, img.width, img.height);
+
                 // save the image from the locastorage
 
                 localStorage.setItem( "savedImageData", canvas.toDataURL("image/jpg") );
 
+                // get the image form the local storage
 
+                var strDataURI = localStorage.getItem('savedImageData');
+                // call the function from the drawDataUrIOnCanvas by passing the new localstorage data and the second context
 
-
+                drawDataURIOnCanvas(strDataURI, ctx2);
+                
             }
             img.src = event.target.result;
             document.getElementById('onepic').src = img.src;
 
+
         }
         reader.readAsDataURL(e.target.files[0]);
 
-        // get the item from the locastorage
-        var strDataURI = localStorage.getItem('savedImageData');
-        drawDataURIOnCanvas(strDataURI, ctx2);
-
         // this function get draw the second canvas
         function drawDataURIOnCanvas(DataURI, context) {
+
+            console.log(localStorage.key("savedImageData"))
             "use strict";
             var img = new Image();
             img.addEventListener("load", function () {
@@ -74,7 +78,6 @@
         }
 
 
-       // canvas.style.backgroundImage = 'url("' + canvas.toDataURL('image/jpg') + '")';
     }
 
 
