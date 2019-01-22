@@ -18,9 +18,6 @@
             var dataUrl;
             var img = new Image();
             img.onload = function(){
-
-                //canvas.width = window.innerWidth;;
-                //canvas.height = window.innerHeight;
                 canvas.width = '600';
                 canvas.height = '500';
                 ctx.translate(img.width,0)
@@ -44,7 +41,7 @@
                 // call the function from the drawDataUrIOnCanvas by passing the new localstorage data and the second context
 
                 drawDataURIOnCanvas(strDataURI, ctx2);
-                
+
             }
             img.src = event.target.result;
             document.getElementById('onepic').src = img.src;
@@ -59,6 +56,7 @@
             console.log(localStorage.key("savedImageData"))
             "use strict";
             var img = new Image();
+
             img.addEventListener("load", function () {
 
                 for (var i=0;i<8;i++){
@@ -79,6 +77,8 @@
 
 
     }
+
+
 
 
 
