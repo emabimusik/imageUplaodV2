@@ -4,3 +4,17 @@
 .single-image{
     margin-top: 50px;
 }
+#p1{
+    width: 700px;
+    height: 190px;
+    font-family: "Helvetica Neue";
+    font-size:40px;
+    color: dodgerblue;
+
+    padding: 5px;
+
+}
+
+.file-label{
+    margin-right:20px;
+}
