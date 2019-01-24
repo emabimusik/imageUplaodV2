@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87038825-9e8f-4a93-bb2f-15d4e6dc7bca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/customer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/customer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/galleri.html" beforeDir="false" afterPath="$PROJECT_DIR$/galleri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okapi.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pic4-small.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic1-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic2-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic5-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic3-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/pic6-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic-6.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/galleri.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="91" column="66" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
+            <state relative-caret-position="197">
+              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -272,12 +257,12 @@
       <workItem from="1548146758187" duration="10551000" />
       <workItem from="1548234318855" duration="3898000" />
       <workItem from="1548238575783" duration="9428000" />
-      <workItem from="1548333219046" duration="7542000" />
+      <workItem from="1548333219046" duration="8131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60343000" />
+    <option name="totallyTimeSpent" value="60932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="911" y="726" width="1591" height="926" extended-state="0" />
@@ -380,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/galleri.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="91" column="66" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
+        <state relative-caret-position="197">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
