@@ -26,11 +26,13 @@
                 // validate the image size
                    if(this.width > 200 && this.height > 150){
 
-                       document.getElementById("p1").innerHTML = " Billedet er for stort til at skabe dit design. Det skal være : 200 X 150 px";
-                      //alert("Billedet er for stort til at skabe dit design. Det skal være : 200 X 150 px")
+                       document.getElementById("p1").innerHTML = " Billedet er for stort til at skabe dit design. Det skal være : 200 X 150 px. ";
+
+                       document.getElementById("p2").innerHTML = " Dit billede størrelse er :"+ this.width  + " X " + this.height + "px. ";
                        dwn.style.visibility="hidden";
 
-                   }else{
+                   }
+                   else{
                        dwn.style.visibility="visible";
 
                        document.getElementById("p1").innerHTML="";

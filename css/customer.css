@@ -5,16 +5,45 @@
     margin-top: 50px;
 }
 #p1{
-    width: 700px;
-    height: 190px;
-    font-family: "Helvetica Neue";
-    font-size:40px;
-    color: dodgerblue;
+     width: 850px;
+     height: 70px;
+     font-family: "Helvetica Neue";
+     font-size:15px;
+     color:red;
+     margin-bottom: 5px;
+     padding: 5px;
 
+ }
+#p2{
+    width: 850px;
+    height: 70px;
+    font-family: "Helvetica Neue";
+    font-size:15px;
+    color:red;
+    margin-top: 5px;
     padding: 5px;
 
 }
 
 .file-label{
     margin-right:20px;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
+
+}
+.gallery {
+    margin: 10px 50px;
+
+}
+.gallery img {
+    width:300px;
+
+    height:200px;
+    box-shadow: 0 2px 3px rgba(10,10,10,0.1),0 0 0 1px rgba(10,10,10,.1);
+    background-color:#fff;
+    padding: 1.5rem;
+    filter: grayscale(100%) ;
+    transition: 1s;
 }
